@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": ";AKAA;;;;mEAImE;ALGnE,MAAM,EAAE,SAAS,EAAE,KAAK;EMPxB;;;;mEAImE;;;ANOnE,MAAM,EAAE,SAAS,EAAE,KAAK;EOXxB;;;;mEAImE;;;APWnE,MAAM,EAAE,SAAS,EAAE,KAAK;EQfxB;;;;mEAImE;;;ARenE,MAAM,EAAE,SAAS,EAAE,MAAM;ESnBzB;;;;mEAImE;;;ATmBnE,MAAM,EAAE,cAAc,EAAE,MAAM,KAAK,6BAA6B,EAAE,CAAC;EUvBnE;;;;mEAImE;EAEnE;;;;;;;;EAQE;;;AVcF,MAAM,CAAC,KAAK;EW5BZ;;;;mEAImE",
+    "sources": [
+        "style.scss",
+        "modules/_variables.scss",
+        "modules/_mixin.scss",
+        "modules/_text-animation.scss",
+        "modules/_mobile-menu.scss",
+        "breakpoints/_base.scss",
+        "breakpoints/_480up.scss",
+        "breakpoints/_600up.scss",
+        "breakpoints/_960up.scss",
+        "breakpoints/_1280up.scss",
+        "breakpoints/_2x.scss",
+        "breakpoints/_print.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
