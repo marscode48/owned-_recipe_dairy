@@ -132,6 +132,14 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 Stylesheet: 960px以上のモニタで適用
 
 ******************************************************************/
+  .img-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .img-list ul li {
+    width: calc(100%/3);
+  }
 }
 
 @media (min-width: 1280px) {
