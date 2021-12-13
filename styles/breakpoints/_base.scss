@@ -1,0 +1,151 @@
+/******************************************************************
+
+Stylesheet: ベーススタイル
+
+******************************************************************/
+body {
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+a {
+  color: $cBlack;
+}
+// .font-sm {
+//   font-size: 14px;
+// }
+// .font-md {
+//   font-size: 17px;
+// }
+// .font-lr {
+//   font-size: 17px;
+// }
+// .font-lg {
+//   font-size: 25px;
+// }
+// .mb-sm {
+//   margin-bottom: 16px !important;
+// }
+// .mb-lg {
+//   margin-bottom: 80px !important;
+// }
+// .pb-sm {
+//   padding-bottom: 16px !important;
+// }
+// .pb-lg {
+//   padding-bottom: 80px !important;
+// }
+// .content-width {
+//   width: 90%;
+//   margin: 0 auto;
+//   max-width: $contentMaxWidth;
+// }
+// .main-title {
+//   @extend .font-lg;
+//   font-weight: 600;
+//   margin-bottom: 0;
+//   display: block;
+// }
+// .sub-title {
+//   @extend .font-sm;
+//   color: $cSubTitle;
+// }
+// .flex {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.main {
+
+  &__img {
+    margin-bottom: 80px;
+
+    & img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+  }
+}
+
+.text {
+  text-align: center;
+  
+  &__inner {
+    margin-bottom: 80px;
+    padding: 0 20px;
+    
+    & a {
+      display: inline-block;
+      padding: 18px 60px;
+      border: 1px solid $cBlack;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    & p {
+      margin: 0;
+    }
+  }
+  
+  &__title {
+    margin-bottom: 20px;
+  }
+  
+}
+
+.img-list {
+  margin-bottom: 60px;
+
+  & ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  & img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+
+  &__inner {
+    padding: 20px;
+  }
+
+  & ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 20px;
+
+    & li {
+      margin: 0 10px;
+      font-size: 12px;
+
+      & a {
+        text-decoration: underline;
+        
+        &:hover {
+          color: $cBlack;
+        }
+      }
+
+    }
+  }
+
+  & p {
+    margin: 0;
+  }
+}
+
+// ボタンのテキストサイズ変更から
