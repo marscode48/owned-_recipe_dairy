@@ -4,6 +4,112 @@
 Stylesheet: ベーススタイル
 
 ******************************************************************/
+body {
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  color: #2b2a27;
+}
+
+.main__img {
+  margin-bottom: 80px;
+}
+
+.main__img img {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+}
+
+.text {
+  text-align: center;
+}
+
+.text__inner {
+  margin-bottom: 80px;
+  padding: 0 20px;
+}
+
+.text__inner a {
+  display: inline-block;
+  padding: 18px 60px;
+  border: 1px solid #2b2a27;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.text__inner p {
+  margin: 0;
+}
+
+.text__title {
+  margin-bottom: 20px;
+}
+
+.img-list {
+  margin-bottom: 60px;
+}
+
+.img-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.img-list img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: bottom;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer__inner {
+  padding: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer ul li {
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.footer ul li a {
+  text-decoration: underline;
+}
+
+.footer ul li a:hover {
+  color: #2b2a27;
+}
+
+.footer p {
+  margin: 0;
+}
+
 @media (min-width: 480px) {
   /******************************************************************
 
