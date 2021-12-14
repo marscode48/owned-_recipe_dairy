@@ -84,6 +84,10 @@ a {
       border: 1px solid $cBlack;
       text-decoration: none;
       font-size: 14px;
+
+      &:hover {
+        color: $cBlack;
+      }
     }
 
     & p {
@@ -148,4 +152,71 @@ a {
   }
 }
 
-// ボタンのテキストサイズ変更から
+// ここからRecipe Diary
+
+.recipe {
+  margin-bottom: 40px;
+
+  &__img {
+    width: 100%;
+
+    & img {
+      width: 100%;
+      vertical-align: bottom;
+      object-fit: cover;
+    }
+  }
+
+  &__list {
+    padding: 40px 5% 0 5%;
+  }
+
+  &__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  &__content {
+    margin: 40px 0 20px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 20px;
+  }
+
+  &__ingredient-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    & dt {
+      width: 85%;
+      padding: 6px 0;
+      font-size: 16px;
+      font-weight: 400;
+      border-bottom: 1px dotted #CCCCCC;
+    }
+    
+    & dd {
+      width: 15%;
+      padding: 6px 0;
+      font-size: 16px;
+      font-weight: 400;
+      border-bottom: 1px dotted #CCCCCC;
+      margin: 0;
+    }
+  }
+
+  &__make-list {
+    padding: 0;
+    margin: 0;
+
+    & li {
+      margin-left: 20px;
+      padding: 6px 0;
+      font-size: 16px;
+      font-weight: 400;
+      border-bottom: 1px dotted #CCCCCC;
+    }
+  }
+
+
+}
