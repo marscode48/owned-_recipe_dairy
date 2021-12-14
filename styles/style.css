@@ -213,6 +213,29 @@ Stylesheet: 960px以上のモニタで適用
   .img-list ul li {
     width: calc(100%/3);
   }
+  .recipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .recipe__img {
+    width: 50%;
+    height: 700px;
+  }
+  .recipe__img img {
+    height: 100%;
+    width: 100%;
+  }
+  .recipe__list {
+    width: 50%;
+    height: 700px;
+  }
+  .recipe__ingredient-list dd {
+    text-align: right;
+  }
 }
 
 @media (min-width: 1280px) {
